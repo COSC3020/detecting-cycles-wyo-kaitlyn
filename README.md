@@ -15,3 +15,7 @@ exercises.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+In the worst case, the algorithm will traverse the entire graph to find a cycle.
+It is using an adjacency list, so it will visit every vertex and edge, making the 
+complexity $\Theta (|V| + |E|)$.
